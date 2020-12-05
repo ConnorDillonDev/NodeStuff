@@ -19,5 +19,8 @@
   "dependencies": {
     "chalk-animation": "^1.6.0",
     "franc": "^5.0.0"
+  },
+  "devDependencies": {
+    "langs": "^2.0.0"
   }
 }
