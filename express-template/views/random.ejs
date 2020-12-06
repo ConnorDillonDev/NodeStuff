@@ -5,7 +5,14 @@
     <title>Random</title>
 </head>
 <body>
-<h1> <%=rand%></h1>
+    <h1> Your random number is: <%=rand%></h1>
+    <% if((rand % 2) === 0){ %>
+        <h2> Your number is even </h2>
+    <% }else{ %>
+        <h2>Your number is odd </h2>
+    <% } %>
+    <h3><%= rand %2===0 ? 'EVEN' : 'ODD'%></h3>
+
 
 </body>
 </html>
