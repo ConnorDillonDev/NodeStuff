@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title><%=subreddit%></title>
-</head>
-<body>
-<h1>Browsing the <%= subreddit %> subreddit</h1>
+<%- include('partials/head') %>
 
+
+<body>
+<%- include('partials/navbar') %>
+
+
+
+<div class="container">
+    <h1>Browsing the <%= subreddit %> subreddit</h1>
+    <!--<% for(let i = 0; i <= 10; i++){ %>-->
+    <!--    <h2><%= i %></h2>-->
+    <!--<% } %>-->
+</div>
 </body>
-</html>
+<%- include('partials/footer') %>
+

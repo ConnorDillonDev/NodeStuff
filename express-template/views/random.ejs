@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Random</title>
-</head>
+<%- include('partials/head') %>
+
 <body>
-    <h1> Your random number is: <%=rand%></h1>
+    <%- include('partials/navbar') %>
+
+<h1> Your random number is: <%=rand%></h1>
     <% if((rand % 2) === 0){ %>
         <h2> Your number is even </h2>
     <% }else{ %>
@@ -15,4 +13,4 @@
 
 
 </body>
-</html>
+<%- include('partials/footer') %>
