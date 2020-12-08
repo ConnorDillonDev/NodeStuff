@@ -7,10 +7,11 @@
 <body>
 <h1>All items</h1>
 <ul>
-    //iterate over products received from index.js
+<!--iterate over products received from index.js-->
     <% for (let product of products){%>
-        <li><%= product.name%></li>
+        <li><a href="/products/<%= product._id%>"> <%= product.name%> </a> </li>
     <%}%>
 </ul>
+<a href="/products/new">New Product</a>
 </body>
 </html>

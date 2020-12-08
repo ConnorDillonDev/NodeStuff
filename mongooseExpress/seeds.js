@@ -48,7 +48,9 @@ const seedProducts = [
     }
 ]
 
-//insert all items from above
+
+
+// insert all items from above
 Product.insertMany(seedProducts).then((resp)=> {
     console.log(resp)
 }).catch((err)=>{
