@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const ejs = require('ejs');
 const path = require('path');
-const methodOverride = require('method-override')
+const methodOverride = require('method-override') //allows custom form actions PUT etc
 
 const app = express();
 
@@ -69,6 +69,7 @@ app.get('/products/:id', async (req, res)=>{
 app.get('/products/:id/delete', async (req, res) => {
     const {id} = req.params;
     const product = await Product.findByIdAndDelete(id);
+    console.log(product);
     res.redirect('/products')
 })
 
