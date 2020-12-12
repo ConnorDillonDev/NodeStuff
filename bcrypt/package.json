@@ -1,0 +1,27 @@
+{
+  "name": "nodestuff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorDillonDev/NodeStuff.git"
+  },
+  "author": "connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConnorDillonDev/NodeStuff/issues"
+  },
+  "homepage": "https://github.com/ConnorDillonDev/NodeStuff#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}
